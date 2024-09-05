@@ -7,7 +7,7 @@ int main() {
     //Definicao de variaveis  cont = contador 
     int cont = 1;
 
-    printf("Numeros divisiveis por 4 e menores que 200:");
+    printf("Numeros divisiveis por 4 e menores que 200:\n");
     while (cont < 200) {
         if (cont % 4 == 0) {
             printf("%d, ", cont);
