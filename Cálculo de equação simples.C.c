@@ -24,4 +24,5 @@ int main() {
     r = (( x * 5) * y) * z;
 
     printf("De acordo com os valores apresentados, o resultado da equacao (( x * 5) * y) * z\n e igual a %d", r);
+    return 0;
 }
