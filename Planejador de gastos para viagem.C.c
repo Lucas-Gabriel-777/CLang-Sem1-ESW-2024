@@ -9,6 +9,7 @@ Dados extras:
 
 #include <stdio.h>
 int main() {
+   //Definicao de variaveis      kpl = kilometro por litro    ct = custo total
     float kpl;
     float ct;
 
