@@ -6,6 +6,7 @@ Assuma, neste programa, que um ano tem 365 dias e que um mês tem 30 dias. */
 
 #include <stdio.h>
 int main() {
+    //Definição de variáveis     t = tempo
     int anos;
     int meses;
     int dias;
