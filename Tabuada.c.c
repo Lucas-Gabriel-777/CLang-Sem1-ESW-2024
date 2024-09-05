@@ -7,6 +7,7 @@ Objetivo: Calcular e mostrar a tabuada de um número inserido pelo usuário.
 
 #include <stdio.h>
 int main () {
+    //Definicao de variaveis    n = Numero  c = contador
     int n;
     int c;
 
