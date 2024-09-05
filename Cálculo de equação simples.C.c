@@ -4,6 +4,7 @@ Objetivo: Criar um algoritmo que calcule a expressão
 R=(( x * 5) * y) * z, lendo os valores de x, y e z pelo teclado*/
 #include <stdio.h>
 int main() {
+    //definicao de variaveis    r = resultado
     int x;
     int y;
     int z;
@@ -23,5 +24,4 @@ int main() {
     r = (( x * 5) * y) * z;
 
     printf("De acordo com os valores apresentados, o resultado da equacao (( x * 5) * y) * z\n e igual a %d", r);
-    
 }
