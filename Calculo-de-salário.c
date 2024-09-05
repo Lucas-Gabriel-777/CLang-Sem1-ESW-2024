@@ -9,12 +9,11 @@
 int main() {
 
   //Definicao de variaveis
+  //ht = horas totais     sh = salario por hora     sf = salario final   he = horas extras
   char nome[50];
   int ht;
   float sh,ss,sf,he = 0;
 
-/*ht = horas totais     sh = salario por hora     sf = salario final   he = horas extras*/
-  
   //Obtendo valores das variaveis
     printf("Nome do funcionario: ");
     scanf("%s", nome);
@@ -36,6 +35,6 @@ int main() {
 
     //Exibindo valores finais
     printf("Salario final do funcionario %s e de %.2f R$ por semana e %.2f R$ por mes \n(com base no calculo de 4 semanas ao mes)",nome,ss,sf);
-
     return 0;
 }
+//✟
