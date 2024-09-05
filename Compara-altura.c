@@ -17,13 +17,13 @@ int main() {
         scanf("%d", &altura[i]);
     }
 
-    // Inicializacao das variaveis de comparacao
+    //Inicializacao de variaveis 
     maxAltura = altura[0];
     minAltura = altura[0];
     alunoalto = aluno[0];
     alunoMin = aluno[0];
 
-    // Encontrar o aluno mais alto e o mais baixo
+    //EComparação de valores para encontrar o aluno mais alto e o mais baixo
     for (i = 1; i < 5; i++) {
         if (altura[i] > maxAltura) {
             maxAltura = altura[i];
@@ -38,6 +38,5 @@ int main() {
     // Exibir os resultados
     printf("Aluno mais alto: Numero %d com altura %d cm\n", alunoMax, maxAltura);
     printf("Aluno mais baixo: Numero %d com altura %d cm\n", alunoMin, minAltura);
-
     return 0;
 }
