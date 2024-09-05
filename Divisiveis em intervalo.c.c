@@ -1,4 +1,3 @@
-
 /*Autor...: LUCAS GABRIEL DOS SANTOS LIMA 
 Data....: 10/05/2024
 Objetivo: Imprimir os numeros divisiveis por 4 menores que 200.*/
